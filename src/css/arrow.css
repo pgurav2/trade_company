@@ -1,0 +1,24 @@
+.arrow-part {
+  border: 1px solid white;
+  width: 86px;
+  height: 46px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  align-items: center;
+  cursor: pointer;
+  
+  
+}
+.arrow_img {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  transition: 0.5s all ease;
+  
+}
+.arrow-part:hover .arrow_img{
+    transform: rotate(-100deg);
+}
+

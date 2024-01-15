@@ -1,0 +1,62 @@
+.our_client_container{
+    padding: 150px 50px;
+    background-color: #02030C;
+    color: #fff;
+    background-image: url("../assets/section-4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+.our_client_wrapper{
+    position: relative;
+}
+.our_client_h3{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    max-width: 900px;
+    margin: 0px auto;
+    line-height: 120%; 
+    padding-bottom: 30px;
+}
+.our_client_span{
+    color: #A5C3FF;
+}
+.logo_img{
+    width: 150px;
+}
+.logo_1{
+    
+    position: absolute;
+    top: 0;
+    left: 11%;
+    transform: translate(50%, -98%);
+}
+.logo_2{
+    position: absolute;
+    top: 0;
+    right:16%;
+    transform: translate(-50%, -80%);
+}
+.logo_3{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.logo_4{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    transform: translate(-50%, -50%);/* transform: translate(-50%, -50%); */
+
+}
+.logo_5{
+    position: absolute;
+    left: 50%;
+    
+    /* top: 40%; */
+    /* bottom: 0; */
+}

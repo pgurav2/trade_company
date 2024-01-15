@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100;200;400;500&display=swap");
+
+* {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.hero_main_wrapper {
+  display: flex;
+  width: 100%;
+  gap: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #02030C;
+}
+
+.hero_wrapper {
+  width: 30%;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #232743;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.5s all ease-in-out !important;
+  /* text-align: center; */
+  cursor: pointer;
+}
+
+.social_wrapper a {
+  color: #fff;
+}
+
+.social_wrapper:hover {
+  width: 156px;
+  justify-content: flex-start;
+  border: 1px solid #A5C3FF;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding-right: 0px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s all ease-in-out !important;
+}
+
+.social_wrapper:hover .telegram {
+  display: none;
+}
+
+.social_content {
+  display: none;
+}
+
+.social_content img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  animation: rotateImg 0.6s ease;
+
+}
+@keyframes rotateImg {
+  0%{
+    transform: rotate(-90deg);
+    opacity: 0.1;
+  }
+  
+  100%{
+    transform: rotate(0deg); 
+    opacity: 1;
+  }
+
+  
+}
+.social_wrapper:hover img{
+  /* transform: rotate(0deg); */
+
+} 
+
+.social_wrapper:hover .social_content {
+  display: block;
+}
+
+.hero_content {
+  width: 60%;
+  color: #fff;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.hero_h1 {
+  font-size: 90px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero_content p {
+  font-size: 18px;
+  max-width: 310px;
+  margin-top: 40px;
+}
+
+.hero_content span {
+  color: #a5c3ff;
+}

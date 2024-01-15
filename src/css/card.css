@@ -1,0 +1,30 @@
+.card_wrapper {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    border: 1px solid #232743;
+    padding: 40px 0px;
+}
+.card_title{
+    padding: 40px 0px 30px;
+    font-size: 30px;
+    max-width: 276px;
+}
+.para_title{
+    padding: 10px 0px 20px;
+    font-size: 18px;
+    color: #A5C3FF;
+    max-width: 276px;
+}
+.card_wrapper:nth-child(1){
+    border-radius: 50px 0 50px 50px;
+
+}
+.card_wrapper:nth-child(2){
+   
+border-radius: 0 50px 0 50px;
+}
+.card_wrapper:nth-child(3){
+    border-radius: 50px 50px 50px 0;
+}

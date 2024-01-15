@@ -1,0 +1,97 @@
+.contact_us_container {
+  width: 100%;
+  padding: 50px;
+  background-color: #02030c;
+}
+.contact_us_main {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.contact_us_wrapper {
+  /* display: flex; */
+  width: 70%;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #101224;
+  padding: 50px;
+}
+.contact_us_form {
+  width: 50%;
+}
+.phone_no {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.contact_us_h3 {
+  text-align: center;
+  max-width: 700px;
+  font-size: 50px;
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 284px auto 0px;
+}
+.color_span {
+  color: #a5c3ff;
+}
+.contact_us_part1_h3 {
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 208px;
+}
+.contact_us_part2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 70px;
+}
+.phone_card {
+  width: 300px;
+}
+.social_icons {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.social_parts {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.contact_arrow {
+  display: inline-block;
+}
+
+.top_icon {
+  transform: translateY(5px);
+  transition: 0.4s all ease;
+}
+
+.bottom_icon {
+  transform: translateY(21px);
+  opacity: 0;
+  transition: 0.4s all ease;
+}
+.social_icons:hover .top_icon{
+  transform: translateY(-25px);
+}
+.social_icons:hover .bottom_icon{
+  transform: translateY(-14px);
+  opacity: 1;
+}
+.social_icons:hover{
+  background-color: #A5C3FF;
+  color: #101224;
+  font-weight: 500;
+}

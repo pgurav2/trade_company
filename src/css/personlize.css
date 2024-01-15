@@ -1,0 +1,53 @@
+.personilse_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+  padding: 50px;
+  background-color: #02030c;
+}
+
+.personlise_content_1 {
+  width: 45%;
+}
+.personlise_content_2 .btn_span {
+  background-color: #02030c;
+}
+.personlise_1_h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #a5c3ff;
+  max-width: 479px;
+}
+.personlise_item {
+  background-color: #101224;
+  padding: 80px 90px;
+  border-radius: 40px;
+}
+.personlise_img {
+  width: 100%;
+  margin-top: 10px;
+}
+.personlise_content_2 {
+  width: 45%;
+  padding-top: 50px;
+}
+
+.personlise_2_h2 {
+  font-size: 70px;
+  color: #fff;
+  max-width: 400px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.personlise_para {
+  color: #fff;
+  max-width: 370px;
+  line-height: 25px;
+  color: #a5c3ff;
+  padding: 60px 0px;
+}
+.arrow {
+  padding-top: 30px;
+}

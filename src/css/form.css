@@ -1,0 +1,44 @@
+.form_wrapper {
+  width: 420px;
+  color: #fff;
+}
+
+.form_content {
+  background-color: #101224;
+  padding: 40px 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.form_content h3,
+.form_subtitle {
+  /* background-color: #101224; */
+  max-width: 220px;
+}
+
+.send_request {
+  width: 61%;
+  background-color: #101224;
+}
+
+input {
+  padding: 15px 20px 15px 20px;
+  background-color: #101224;
+  border: 1px solid#232743;
+  border-radius: 20px;
+  color: #fff;
+}
+.send_request .btn{
+  width: 220px;
+}
+
+.invalid_email{
+  color: red;
+  font-size: 14px;
+  text-align: left;
+  margin-top: -15px;
+  padding-left: 10px;
+}

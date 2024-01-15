@@ -1,0 +1,92 @@
+.client_says_wrapper {
+  background-image: url("../assets/Union.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 703px;
+  background-color: #02030c;
+  padding: 0px 50px;
+}
+.client_lable {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  /* max-width: 473px; */
+}
+.client_para {
+  max-width: 473px;
+}
+.swiper_content {
+  color: #fff;
+}
+.color_span {
+  color: #a5c3ff;
+}
+.client_swiper_wrapper {
+  background-color: #101224;
+  padding: 90px;
+  border-radius: 40px;
+  margin-top: 274px;
+  position: relative;
+  z-index: 999;
+}
+.swiper_content {
+  /* border: 1px solid #e1ebfb; */
+  padding: 50px;
+  height: 329px;
+}
+.client_item_para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a5c3ff;
+}
+.client_item_name {
+  color: #e1ebfb;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.client_item_designation {
+  color: #e1ebfb;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+/* for 1,4,7.. slides */
+.client_swiper:nth-child(3n-2) {
+  border-radius: 40px 0px 40px 40px;
+  border: 1px solid #232743;
+}
+/* for 2,5,8... slides */
+.client_swiper:nth-child(3n-1) {
+  border-radius: 0px 40px 40px 40px;
+  border: 1px solid #232743;
+}
+/* 3,6 */
+.client_swiper:nth-child(3n) {
+  border-radius: 40px 40px 40px 0px;
+  border: 1px solid #232743;
+}
+.swiper-pagination-bullet {
+  width: 16px !important;
+  border-radius: 100px !important;
+  background: #232743 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #a5c3ff !important;
+  transition: 0.4s !important;
+  width: 40px !important;
+}
+
+.swiper-pagination{
+  /* bottom: -10px !important; */
+  z-index: 100 !important;
+}
